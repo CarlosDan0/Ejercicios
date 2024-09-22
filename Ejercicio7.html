@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="validacion.js"></script>
+</head>
+<body>
+    <div class="principal">
+        <div class="barra">
+            <a href="index.html" class="regresar">Regresar al inicio</a>
+        </div>
+        <div class="contenido">
+            <h1>Horas extras</h1>
+            <form method="get" name="Horasextras" onsubmit="return validar7(this)" action="Ejercicio7.html">
+                <label>Ingrese el sueldo por hora</label><br>
+                <input type="text" id="sueldo"><br><br>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td><label>Lunes</label></td>
+                        <td><label>Martes</label></td>
+                        <td><label>Miercoles</label></td>
+                        <td><label>Jueves</label></td>
+                        <td><label>Viernes</label></td>
+                    </tr>
+                    <tr>
+                        <td>Horas trabajadas</td>
+                        <td><input type="text" id="lun"></td>
+                        <td><input type="text" id="mar"></td>
+                        <td><input type="text" id="mie"></td>
+                        <td><input type="text" id="jue"></td>
+                        <td><input type="text" id="vie"></td>
+                    </tr>
+                </table><br>
+                <input type="submit"> <input type="reset">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

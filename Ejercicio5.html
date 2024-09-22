@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="validacion.js"></script>
+</head>
+<body>
+    <div class="principal">
+        <div class="barra">
+            <a href="index.html" class="regresar">Regresar al inicio</a>
+        </div>
+        <div class="contenido">
+            <h1>Edad</h1>
+            <form method="get" name="Edad" onsubmit="return validar5(this)" action="Ejercicio5.html">
+                <legend>Ingrese su fecha de nacimiento</legend><br>
+                <input type="text" id="dia" maxlength="2" placeholder="Dia"><input type="text" id="mes" maxlength="2" placeholder="Mes"><input type="text" id="ano" maxlength="4" placeholder="Año"><br><br>
+                <legend>Ingrese la fecha de hoy</legend><br>
+                <input type="text" id="dia2" maxlength="2" placeholder="Dia"><input type="text" id="mes2" maxlength="2" placeholder="Mes"><input type="text" id="ano2" maxlength="4" placeholder="Año"><br><br><br><br><br>
+                <input type="submit">
+                <input type="reset">
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>
